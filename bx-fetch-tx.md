@@ -14,7 +14,7 @@ Options (named):
 -f [--format]        The output format. Options are 'info', 'json' and
                      'xml', defaults to 'info'.
 -h [--help]          Get a description and instructions for this command.
--w [--witness]       Include witness as applicable. Requires a version
+-w [--witness]       Includes witness as applicable. Requires a version
                      3.4 or later Libbitcoin server connection.
 Arguments (positional):
 
