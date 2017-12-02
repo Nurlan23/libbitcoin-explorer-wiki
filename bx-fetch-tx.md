@@ -14,7 +14,8 @@ Options (named):
 -f [--format]        The output format. Options are 'info', 'json' and
                      'xml', defaults to 'info'.
 -h [--help]          Get a description and instructions for this command.
-
+-w [--witness]       Include witness as applicable. Requires a version
+                     3.4 or later Libbitcoin server connection.
 Arguments (positional):
 
 HASH                 The Base16 transaction hash of the transaction to
@@ -27,7 +28,7 @@ This command supports [configuration settings](Configuration-Settings).
 ```sh
 $ bx fetch-tx 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
 ```
-```js
+```
 transaction
 {
     hash 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
@@ -69,7 +70,7 @@ $ bx base16-decode 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204
 ```sh
 $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588
 ```
-```js
+```
 {
     "transaction": {
         "hash": "4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588",
