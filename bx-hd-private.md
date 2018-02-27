@@ -62,3 +62,12 @@ $ bx seed | hd-new | hd-private
 xprv9s21ZrQH143K2odHtyepinTKCiDf8eBUv5fTHtwDHef5VwX79HyVkut91SFpMUvRHF9f2jwkoQ1Z4kpsrpfvS8ZX4QKCcoZoMeXmLWfPKvB
 xprv9vHdLyX7nuCbJGV6xHSSi6MxqibjVeiKRF4Z7P2fPKZgpFvmU1oM9mXJqAXCpsHS7FX2Z2fmSTigfeW32bGAQvkLtgQRqgHJPWSptU1gyo6
 ```
+
+### Example 6
+BIP32 [Test Vector 1](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#test-vector-1) Chain m/0H/1/2H/2/1000000000
+```sh
+$ bx hd-new 000102030405060708090a0b0c0d0e0f | bx hd-private -d | bx hd-private -i 1 | bx hd-private -d -i 2 | bx hd-private -i 2 | bx hd-private -i 1000000000
+```
+```
+xprvA41z7zogVVwxVSgdKUHDy1SKmdb533PjDz7J6N6mV6uS3ze1ai8FHa8kmHScGpWmj4WggLyQjgPie1rFSruoUihUZREPSL39UNdE3BBDu76
+```
