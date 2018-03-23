@@ -32,7 +32,25 @@ $ bx fetch-height
 325956
 ```
 ### Example 2
-server-url, wrong port number
+Specified server-url
+```sh
+$ bx fetch-height tcp://mainnet.libbitcoin.net:9091
+```
+```
+514826
+```
+
+### Example 3
+Specified server-url and public key (see [here](https://github.com/libbitcoin/libbitcoin-server/wiki/Community-Servers) for more details)
+```sh
+$ bx fetch-height tcp://mainnet2.libbitcoin.net:9081 "}[YQ:ks:iKd0F1!ycPgj:4CVzfV-=jsF}x&%ff=/"
+```
+```
+514826
+```
+
+### Example 4
+Specified server-url with an incorrect port number
 ```sh
 $ bx fetch-height tcp://obelisk.unsystem.net
 ```
