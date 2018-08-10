@@ -94,19 +94,9 @@ transaction
 ```
 Notice that `transactions.inputs[0].script` is empty. This means that the input has not been endorsed.
 
-Generate a random **nonce**.
+Create an **endorsement** for the first input `7c3e880e...:0` of the new transaction, using the private key, previous output script and the new transaction. The script is obtained from `transaction.outputs[0].script` in the input's transaction.
 ```sh
-$ bx seed
-```
-```
-707e3d717925ba2e98234dd6f3a38eb5
-```
-
-> The above step is now **invalid** as a nonce is no longer allowed.
-
-Create an **endorsement** for the first input `7c3e880e...:0` of the new transaction, using the private key, nonce, previous output script and the new transaction. The script is obtained from `transaction.outputs[0].script` in the input's transaction.
-```sh
-$ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 "dup hash160 [c564c740c6900b93afc9f1bdaef0a9d466adf6ee] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
+$ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 "dup hash160 [c564c740c6900b93afc9f1bdaef0a9d466adf6ee] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401
