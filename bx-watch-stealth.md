@@ -40,7 +40,7 @@ Bad stream
 ### Example 2
 monitor a stealth prefix
 ```sh
-$ bx watch-address 01010101
+$ bx watch-stealth 01010101
 ```
 This message will be written once the subscription is established.
 ```
