@@ -40,6 +40,8 @@
   * [ec-to-address](bx-ec-to-address)
   * [ec-to-public](bx-ec-to-public)
   * [ec-to-wif](bx-ec-to-wif)
+  * [electrum-new](bx-electrum-new)
+  * [electrum-to-seed](bx-electrum-to-seed)
   * [hd-new](bx-hd-new)
   * [hd-private](bx-hd-private)
   * [hd-public](bx-hd-public)
