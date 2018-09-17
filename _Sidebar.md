@@ -95,6 +95,8 @@
   * [send-tx](bx-send-tx)
   * [send-tx-node](bx-send-tx-node)
   * [send-tx-p2p](bx-send-tx-p2p)
+  * [subscribe-block](bx-subscribe-block)
+  * [subscribe-tx](bx-subscribe-tx)
   * [validate-tx](bx-validate-tx)
   * [watch-address](bx-watch-address)
   * [watch-stealth](bx-watch-stealth)
