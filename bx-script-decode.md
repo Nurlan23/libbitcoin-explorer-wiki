@@ -3,13 +3,14 @@ Decode a script to plain text tokens.
 $ bx script-decode --help
 ```
 ```
-Usage: bx script-decode [-h] [--config VALUE] [BASE16]                   
+Usage: bx script-decode [-h] [--config value] [--flags value] [BASE16]   
 
 Info: Decode a script to plain text tokens.                              
 
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
+-f [--flags]         The rule fork flags, defaults to all (4294967295).  
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
