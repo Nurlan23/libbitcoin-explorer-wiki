@@ -86,6 +86,7 @@
   * [tx-sign](bx-tx-sign)
 * **[Online Commands](Online-Commands)**
   * [fetch-balance](bx-fetch-balance)
+  * [fetch-block](bx-fetch-block)
   * [fetch-header](bx-fetch-header)
   * [fetch-height](bx-fetch-height)
   * [fetch-history](bx-fetch-history)
