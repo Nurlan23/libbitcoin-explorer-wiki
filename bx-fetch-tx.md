@@ -74,10 +74,9 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
 {
     "transaction": {
         "hash": "4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588",
-        "inputs":
-        [
+        "inputs": [
             {
-                "address": "136Zngm3jPWjXr62D6aAqiHViwC8GX7KrT",
+                "address_hash": "16fdb37edae340402c9e037a08eb109dfbb7eeee",
                 "previous_output": {
                     "hash": "e58f3fb6e2ebe8e74e5af032dfd8c8e5e51f53d59489591a71599a80bdca910d",
                     "index": "0"
@@ -86,7 +85,7 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
                 "sequence": "4294967295"
             },
             {
-                "address": "16twDP2ZL2nZTRsWmfpNrgs9PNDECyBJEV",
+                "address_hash": "40ab191b6886a477608f6253b57fde4f63f8c288",
                 "previous_output": {
                     "hash": "203609ba699c1f56e4a8d793a8cd746aa5aa5fc2e71205cf67a94487b45bafa9",
                     "index": "1"
@@ -96,15 +95,14 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
             }
         ],
         "lock_time": "0",
-        "outputs":
-        [
+        "outputs": [
             {
-                "address": "1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v",
+                "address_hash": "b169f2b0b866db05900b93a5d76345f18d3afb24",
                 "script": "dup hash160 [b169f2b0b866db05900b93a5d76345f18d3afb24] equalverify checksig",
                 "value": "7500000"
             },
-            "output": {
-                "address": "16kZCdRoVmv9aWXagqxqm5NbLm19mQTr1V",
+            {
+                "address_hash": "3f156517411bd0ea2f22e2f42d6846b405facb27",
                 "script": "dup hash160 [3f156517411bd0ea2f22e2f42d6846b405facb27] equalverify checksig",
                 "value": "97317"
             }
