@@ -31,7 +31,7 @@ scan key is spend key, version 42 (previous standard)
 ```sh
 $ bx stealth-decode hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ```
-```json
+```
 stealth_address
 {
     encoded hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
@@ -50,7 +50,7 @@ scan key and redundant spend key
 ```sh
 $ bx stealth-decode 1DsiaW2kjjZAT92tAW8rvS1tF9ZSVzpz5WPBLAQFrPrMRMQQz7X6qR8h
 ```
-```js
+```
 stealth_address
 {
     encoded 1DsiaW2kjjZAT92tAW8rvS1tF9ZSVzpz5WPBLAQFrPrMRMQQz7X6qR8h
@@ -69,7 +69,7 @@ scan key and additional spend key
 ```sh
 $ bx stealth-decode 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf9bzn7hBP
 ```
-```js
+```
 stealth_address
 {
     encoded 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf9bzn7hBP
@@ -89,7 +89,7 @@ one of two signatures required
 ```sh
 $ bx stealth-decode 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf978insV8
 ```
-```js
+```
 stealth_address
 {
     encoded 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf978insV8
@@ -109,7 +109,7 @@ maximum length filter
 ```sh
 $ bx stealth-decode 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
 ```
-```js
+```
 stealth_address
 {
     encoded 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
@@ -128,7 +128,7 @@ filter and one of two signatures required
 ```sh
 $ bx stealth-decode 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
 ```
-```js
+```
 stealth_address
 {
     encoded 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
@@ -148,7 +148,7 @@ version 111 (testnet)
 ```sh
 $ bx stealth-decode 2rT9GaRuU7hM5DiaP6FDbRWX9tLuh5E5QC6mG6jVfMSm7LHmiGFbDhHfHe
 ```
-```js
+```
 stealth_address
 {
     encoded 2rT9GaRuU7hM5DiaP6FDbRWX9tLuh5E5QC6mG6jVfMSm7LHmiGFbDhHfHe
@@ -167,7 +167,7 @@ stealth_address
 ```sh
 $ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-decode -f json
 ```
-```js
+```
 {
     "stealth_address": {
         "encoded": "hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i",
