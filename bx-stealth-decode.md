@@ -31,7 +31,7 @@ scan key is spend key, version 42 (previous standard)
 ```sh
 $ bx stealth-decode hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ```
-```js
+```json
 stealth_address
 {
     encoded hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
@@ -105,7 +105,7 @@ stealth_address
 }
 ```
 ### Example 5
-maximum length pfilter
+maximum length filter
 ```sh
 $ bx stealth-decode 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
 ```
